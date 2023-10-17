@@ -14,5 +14,18 @@ Problema: eu como empresa de venda de materiais de construção gostaria de ter 
  
  -- Criar um banco de dados MCS
  CREATE DATABASE mcs; 
+ -- Depois de criado o banco de dados, devemos selecioná-lo através do comando USE
+ USE mcs;
  
+ -- Criar tabela FUNCIONARIO
+ CREATE TABLE funcionario (
+    codigo INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nome VARCHAR (50) NOT NULL,  
+    sobreNome VARCHAR (50) NOT NULL,
+    dataNascimento DATETIME NOT NULL, 
+    salario DECIMAL (10,2) NOT NULL, 
+	codigoEstado CHAR (2) NOT NULL,
+    codigoDepartamento CHAR(3) NOT NULL
+);
+
  
