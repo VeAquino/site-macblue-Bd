@@ -91,3 +91,6 @@ SELECT datanascimento, nome FROM funcionario ORDER BY datanascimento DESC;
 
 -- Selecionar o salario  total dos funcionarios
 SELECT  salario AS total FROM funcionario;
+
+-- Deletar o funcionario  com o código igual a 72
+DELETE FROM funcionario WHERE codigo=72;
