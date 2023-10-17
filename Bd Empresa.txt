@@ -81,3 +81,6 @@ SELECT nome, sobrenome FROM funcionario;
 
 -- Selecionar os funcionarios pelo codigo de estado de SP
 SELECT * FROM funcionario WHERE codigoestado = "sp";
+
+-- Selecionar os funcionarios com salarios maiores que 3.000 por ordem do nome
+SELECT * FROM funcionario WHERE salario > 3000.00 ORDER BY nome;
