@@ -43,3 +43,12 @@ ADD FOREIGN KEY (gerente) REFERENCES funcionario (codigo);
 -- Alterar na tabela funcionario a chave estrangeira com codigo departamento e sigla
 ALTER TABLE funcionario
 ADD FOREIGN KEY (codigoDepartamento) REFERENCES departamento (sigla);
+
+-- Inserir no departamento, sigla, nome, andar e gerente e valores
+INSERT INTO departamento (sigla, nome, andar, gerente) VALUES
+("VND", "Vendas", 1, NULL),
+("SAC ", "Atendimento ao Cliente", 2, NULL),
+("MKT", "Marketing", 3, NULL),
+("SUP", "Suprementos", 4, NULL),
+("FIN", "Financeiro", 5, NULL),
+("NNG", "Novos Negocios", 6, NULL);
