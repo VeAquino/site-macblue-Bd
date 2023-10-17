@@ -35,3 +35,7 @@ Problema: eu como empresa de venda de materiais de construção gostaria de ter 
     andar INT NOT NULL, 
     gerente INT 
 );
+
+-- Alterar tabela e adicionar a chave estrangeira referente os funcionarios gerentes
+ALTER TABLE departamento
+ADD FOREIGN KEY (gerente) REFERENCES funcionario (codigo);
