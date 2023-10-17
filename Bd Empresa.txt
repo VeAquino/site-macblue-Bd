@@ -88,3 +88,6 @@ SELECT * FROM funcionario WHERE salario > 3000.00 ORDER BY nome;
 --  DESC = descendente; ASC = ascendente 
 -- Selecionar os funcionarios por data de nascimento, nome em ordem descendente
 SELECT datanascimento, nome FROM funcionario ORDER BY datanascimento DESC;
+
+-- Selecionar o salario  total dos funcionarios
+SELECT  salario AS total FROM funcionario;
