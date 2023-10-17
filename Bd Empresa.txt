@@ -104,3 +104,7 @@ INSERT INTO funcionario (nome, sobrenome, datanascimento, salario, codigoestado,
 
 -- Deletar funcionario do codigo departamento de vendas
 DELETE FROM funcionario WHERE codigodepartamento = "VND";
+
+-- Deletar funcionario do codigo departamento do SAC (serviço deatendimento do consumidor)
+DELETE FROM funcionario WHERE codigodepartamento = "SAC";
+
