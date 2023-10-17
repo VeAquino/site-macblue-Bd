@@ -1,0 +1,18 @@
+/*
+Problema: eu como empresa de venda de materiais de construção gostaria de ter um banco de dados para gerenciar
+ a lista de funcionários e cada departamento pertencente aos funcionários dentro da empresa. Os departamentos são: Vendas,
+ Atendimento ao cliente, Marketing, Suprimentos, Financeiro e Novos Negócios. Cada departamento possui um gerente, que
+ também é funcionário da empresa. As informações desejadas a serem armazenadas neste banco de dados são: 
+ 
+ Funcionários (nome e sobrenome ordenando pelo sobrenome, pela data de nascimento do mais novo para o mais velho), Rg (chave primária),
+ departamentos (identificados de 1 a 6), listar os funcionários residentes em SP, atualizar os salários dos
+ funcionários do departamento  de vendas para R$ 5000,00 , listar os funcionários que recebem R$ 3000,00 pelo nome, 
+ total da folha de pagamento da empresa.
+ 
+ O nome do banco de dados deve ser "MCS"
+ */
+ 
+ -- Criar um banco de dados MCS
+ CREATE DATABASE mcs; 
+ 
+ 
