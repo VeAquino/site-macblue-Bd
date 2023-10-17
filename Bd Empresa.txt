@@ -94,3 +94,10 @@ SELECT  salario AS total FROM funcionario;
 
 -- Deletar o funcionario  com o código igual a 72
 DELETE FROM funcionario WHERE codigo=72;
+
+-- Inserir os funcionarios pelo nome, sobrenome, data denascimento, salario, codigo estado, codigo departamento
+INSERT INTO funcionario (nome, sobrenome, datanascimento, salario, codigoestado, codigodepartamento) VALUES
+("Saul", "Rodrigues", "1989-08-27", 3500.00, "SP", "FIN"),
+("Celina", "Marques", "1985-11-15", 3500.00, "RJ", "FIN"),
+("Marina", "Ribeiro", "1975-01-17", 3500.00, "RJ", "FIN"),
+("Ricardo", "Prado", "1980-10-29", 3500.00, "MA", "FIN");
