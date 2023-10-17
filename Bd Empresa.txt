@@ -84,3 +84,7 @@ SELECT * FROM funcionario WHERE codigoestado = "sp";
 
 -- Selecionar os funcionarios com salarios maiores que 3.000 por ordem do nome
 SELECT * FROM funcionario WHERE salario > 3000.00 ORDER BY nome;
+
+--  DESC = descendente; ASC = ascendente 
+-- Selecionar os funcionarios por data de nascimento, nome em ordem descendente
+SELECT datanascimento, nome FROM funcionario ORDER BY datanascimento DESC;
