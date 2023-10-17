@@ -123,3 +123,10 @@ DELETE FROM funcionario WHERE codigodepartamento = "FIN";
 DELETE FROM funcionario WHERE codigodepartamento = "NNG";
 
 
+-- Selecionar por sigla, nome, nome do departamento, nome do gerente, funcionario, gerente e codigo
+SELECT d.sigla, d.nome AS nomeDepartamento, f.nome AS nomeGerente
+ FROM departamento AS d JOIN funcionario AS f ON d.gerente = f.codigo;
+
+
+
+
