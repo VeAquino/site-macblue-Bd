@@ -28,4 +28,10 @@ Problema: eu como empresa de venda de materiais de construção gostaria de ter 
     codigoDepartamento CHAR(3) NOT NULL
 );
 
- 
+ -- Criar tabela DEPARTAMENTOS
+ CREATE TABLE departamento (
+    sigla CHAR(3) PRIMARY KEY NOT NULL,
+    nome VARCHAR(50) NOT NULL,
+    andar INT NOT NULL, 
+    gerente INT 
+);
