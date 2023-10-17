@@ -78,3 +78,6 @@ SELECT * FROM funcionario;
 
 -- Selecionar funcionarios por nome,sobrenome
 SELECT nome, sobrenome FROM funcionario;
+
+-- Selecionar os funcionarios pelo codigo de estado de SP
+SELECT * FROM funcionario WHERE codigoestado = "sp";
