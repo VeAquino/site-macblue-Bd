@@ -52,3 +52,23 @@ INSERT INTO departamento (sigla, nome, andar, gerente) VALUES
 ("SUP", "Suprementos", 4, NULL),
 ("FIN", "Financeiro", 5, NULL),
 ("NNG", "Novos Negocios", 6, NULL);
+
+-- Inserir funcionarios por nome, sobre nome, data de nascimento, salario, codigo de estado, codigo departamento e valores
+INSERT INTO funcionario (nome, sobrenome, datanascimento, salario, codigoestado, codigodepartamento) VALUES
+("Antonio", "Alves", "1975-6-23", 5000.00, "SP", "VND"),
+("Beatriz", "Braga", "1980-5-17", 5000.00, "SP", "VND"),
+("Carlos", "Camargo", "1982-4-10", 5000.00, "SP", "VND"),
+("Denis", "Silva", "1972-7-12", 5000.00, "SP", "VND"),
+("Eduardo", "Lemos", "1989-8-25", 5000.00, "SP", "VND"),
+("Eliana", "Tavares", "1981-2-19", 3000.00, "RJ", "SAC"),
+("Wesley", "Siqueira", "1981-3-13", 3000.00, "MT", "SAC"),
+("Simone", "Alves", "1989-10-09", 3000.00, "MG", "SAC"),
+("Pedro", "Moreira", "1985-2-26", 4800.00, "SP", "MKT"),
+("Perola", "Souza", "1988-2-22", 4800.00, "MG", "MKT"),
+("Bruna", "Oliveira", "1989-01-07", 3700.00, "SP", "SUP"),
+("Joao", "Silva", "1984-12-17", 3700.00, "AL", "SUP"),
+("Saul", "Rodrigues", "1989-08-27", 3500.00, "SP", "FIN"),
+("Celina", "Marques", "1985-11-15", 3500.00, "RJ", "FIN"),
+("Marina", "Ribeiro", "1975-01-17", 3500.00, "RJ", "FIN"),
+("Ricardo", "Prado", "1980-10-29", 3500.00, "MA", "FIN"),
+("Flavia", "Fogaça", "1972-07-30", 4800.00, "SP", "NNG");
