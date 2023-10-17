@@ -75,3 +75,6 @@ INSERT INTO funcionario (nome, sobrenome, datanascimento, salario, codigoestado,
 
 -- Selecionar funcionario
 SELECT * FROM funcionario;
+
+-- Selecionar funcionarios por nome,sobrenome
+SELECT nome, sobrenome FROM funcionario;
