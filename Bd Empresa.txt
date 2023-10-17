@@ -115,3 +115,7 @@ DELETE FROM funcionario WHERE codigodepartamento = "MKT";
 DELETE FROM funcionario WHERE codigodepartamento = "SUP"; 
 
 
+-- Deletar funcionario do codigo departamento Finanças
+DELETE FROM funcionario WHERE codigodepartamento = "FIN"; 
+
+
